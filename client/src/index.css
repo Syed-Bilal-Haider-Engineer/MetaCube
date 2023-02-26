@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.scroolbox::-webkit-scrollbar {
+  width: 5px;
+}
+
+ /* Track  */
+.scroolbox::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+/* / Handle / */
+
+.scroolbox::-webkit-scrollbar-thumb {
+  background: linear-gradient(90.1deg, #4f98d0 0.11%, #34d9b1 95.94%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 100px;
+}
+
+
+
+/* .geocoder {
+  
+  
+  
+} */
+
+/* *{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+} */
+.mapboxgl-ctrl-top-right{
+  margin: 100px 10px 0 0;
+ 
+}
+.mapboxgl-ctrl-geocoder input[type=text]{
+  background-color: white;
+  /* margin-bottom:10px ; */
+
+}
+
+
+  
+  .mapboxgl-ctrl-geocoder input:focus {
+  color: rgba(0, 0, 0, .75);
+  outline: 0;
+  box-shadow: none;
+  outline: dotted thin\8;
+  /* border-radius: 10px; */
+  
+  
+  }
+
+.mapboxgl-ctrl-geocoder--icon-search {
+  top:12px !important;
+}
+  @media only screen and (max-width: 900px) and (min-width: 360px)  {
+
+    .mapboxgl-ctrl-top-right{
+      margin: 50px 10px 0 0;
+    }
+  }
+
+
+
+  .ScrolStyle::-webkit-scrollbar {
+    width:0px;
+  }
+  
+   /* Track  */
+  .ScrolStyle::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  
+  /* / Handle / */
+  
+  .ScrolStyle::-webkit-scrollbar-thumb {
+    background: linear-gradient(90.1deg, #4f98d0 0.11%, #34d9b1 95.94%);
+    background: linear-gradient(90.1deg, #4f98d0 0.11%, #34d9b1 95.94%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+  }
+
+
+
+
+  
+
+  /* .mapboxgl-ctrl-top-right{
+    top: 30rem !important
+  } */
+.stripeMethod{
+  background: linear-gradient(90.1deg, #4f98d0 0.11%, #34d9b1 95.94%) !important;
+}
+  .stripeMethod span{
+    background: linear-gradient(90.1deg, #4f98d0 0.11%, #34d9b1 95.94%) !important;
+  }
+
+  

@@ -1,0 +1,22 @@
+/* Scrollbar styles */
+ ::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+    overflow-x: hidden;
+    }
+    
+    ::-webkit-scrollbar-track {
+    /* border: 1px solid ; */
+    border-radius: 15px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: #e4dfe1;  
+    border-radius: 15px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: #e0dbdd;  
+    }
+
+   
